@@ -1,0 +1,12 @@
+Total bytecount:98088
+Files list:
+--------------
+.gitignore
+archive.zip
+CONTRIBUTING.md
+LICENSE
+newfile.txt
+NOTICE
+README.md
+testzip.zip
+textfile.txt.bak

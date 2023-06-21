@@ -8,11 +8,11 @@ totalbytes = 0
 
 # get a list of all the files in the current directory
 dirlist = os.listdir()
-for entry in dirlist:
+for entryfile in dirlist:
     # make sure it's a file!
-    if os.path.isfile(entry):
+    if os.path.isfile(entryfile):
         # add the file size to the total
-        filesize = os.path.getsize(entry)
+        filesize = os.path.getsize(entryfile)
         totalbytes += filesize
 
 # create a subdirectory called "results"
