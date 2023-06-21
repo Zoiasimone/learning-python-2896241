@@ -1,4 +1,4 @@
-# 
+#
 # Example file for variables
 # LinkedIn Learning Python course by Joe Marini
 #
@@ -11,7 +11,7 @@ mystr = "This is a string"
 mybool = True
 mylist = [0, 1, "two", 3.2, False]
 mytuple = (0, 1, 2)
-mydict = {"one" : 1, "two" : 2}
+mydict = {"one": 1, "two": 2}
 
 print(myint)
 print(myfloat)
@@ -23,7 +23,7 @@ print(mydict)
 
 # re-declaring a variable works
 myint = "abc"
-print (myint)
+print(myint)
 
 # to access a member of a sequence type, use []
 print(mylist[2])
@@ -34,20 +34,23 @@ print(mylist[1:4:2])
 print(mylist[::-1])
 
 # dictionaries are accessed via keys
-print(mydict["one"]) 
+print(mydict["one"])
 
 # ERROR: variables of different types cannot be combined
-#print ("string type " + 123)
-print ("string type " + str(123))
+# print ("string type " + 123)
+print("string type " + str(123))
+
 
 # Global vs. local variables in functions
 def someFunction():
-    #global mystr
+    # global mystr
     mystr = "def"
-    print (mystr)
+    print(mystr)
+
 
 someFunction()
-print (mystr) 
+print(mystr)
 
+# delete
 del mystr
-print (mystr)
+print(mystr)

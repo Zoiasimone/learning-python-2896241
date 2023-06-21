@@ -4,7 +4,6 @@
 #
 
 
-
 def main():
     x, y = 10, 100
 
@@ -34,6 +33,7 @@ def main():
         case _:
             result = -1
     print(result)
+
 
 if __name__ == "__main__":
     main()
