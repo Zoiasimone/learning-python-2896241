@@ -4,6 +4,7 @@
 
 import calendar
 
+
 # This function counts the number of the given weekday for the
 # specified year and month and returns the result
 def countdays(theyear, themonth, whichday):
@@ -18,7 +19,7 @@ def countdays(theyear, themonth, whichday):
 print("--Day counter program--\n")
 
 run = True
-while(run):
+while run:
     try:
         print("Which day of the week do you want to count?")
         print("0: Monday")
@@ -43,9 +44,12 @@ while(run):
         month = int(monthstr)
 
         result = countdays(year, month, day)
-        print("There are " + str(result) + " of those days in the month and year specified")
+        print(
+            "There are "
+            + str(result)
+            + " of those days in the month and year specified"
+        )
         print("-----------\n")
     except Exception as e:
         print(e)
         print("Sorry, that's not valid input")
-
